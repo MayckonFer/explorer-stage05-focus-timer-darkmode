@@ -1,0 +1,57 @@
+body.darkmode {
+  background-color: var(--bg-darkmode);
+  transition: 200ms;
+}
+
+body.darkmode .wrapper-timer span {
+  color: var(--white) !important;
+}
+
+body.darkmode .play svg path,
+body.darkmode .pause svg path,
+body.darkmode .stop svg path,
+body.darkmode .add-time svg path,
+body.darkmode .decrement-time svg path {
+  fill: var(--color-darkmode);
+}
+
+body.darkmode .tree,
+body.darkmode .rain,
+body.darkmode .home,
+body.darkmode .fire {
+  background-color: var(--bg-card-darkmode);
+}
+
+body.darkmode .tree.active,
+body.darkmode .rain.active,
+body.darkmode .home.active,
+body.darkmode .fire.active {
+  background-color: var(--bg-card-focus-darkmode);
+}
+
+body.darkmode .tree svg path,
+body.darkmode .rain svg path,
+body.darkmode .home svg path,
+body.darkmode .fire svg path {
+  fill: var(--color-darkmode);
+}
+
+body.darkmode .tree.active svg path,
+body.darkmode .rain.active svg path,
+body.darkmode .home.active svg path,
+body.darkmode .fire.active svg path {
+  fill: var(--white);
+}
+
+body.darkmode .card-sounds input[type="range"],
+body.darkmode .card-sounds input[type="range"]::-webkit-slider-thumb {
+  background-color: var(--white);
+}
+
+.bg-sound-button-darkmode {
+  background-color: var(--bg-card-focus-darkmode) !important;
+}
+
+.bg-sound-button-lightmode {
+  background-color: var(--bg-card-focus) !important;
+}
