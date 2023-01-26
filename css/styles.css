@@ -66,6 +66,7 @@ textarea {
   right: 2rem;
   transition: 200ms;
   animation: downtop 700ms 350ms backwards;
+  z-index: 1000;
 }
 
 /* Main */
